@@ -2,7 +2,7 @@
 
 angular.module ( 'data').
 service('MenuDataService',MenuDataService )
-.constant('myURL',"http://davids-restaurant.herokuapp.com/");
+.constant('myURL',"https://davids-restaurant.herokuapp.com/");
 
 
 MenuDataService.$inject = ['$http' , 'myURL'];
